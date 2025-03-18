@@ -1,0 +1,30 @@
+.navbar-text {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-text .bi {
+    margin-right: 0.25rem;
+}
+
+.navbar-text .text-primary {
+    font-weight: bold;
+}
+.header_nave{
+    background-color: #fcfaed;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+.user_images{
+    cursor: pointer;
+}
+.logout_button{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sjywsyu{
+    margin-right: auto;
+}

@@ -1,0 +1,32 @@
+.useravatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.profiel_name{
+    text-align: center;
+    margin-top: 15px;
+}
+.profiel_name h5{
+    font-size: 19px;
+    margin-top: 10px;
+}
+.calling_{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.calling{
+        background: #bbb;
+            padding: 10px 25px;
+            margin: 0px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+}
+.about_text,.phone_text{
+    font-size: 17px;
+    font-weight: 600;
+}
+.user_desc{
+    margin-top: 15px;
+}

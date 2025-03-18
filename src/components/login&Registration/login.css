@@ -1,0 +1,18 @@
+.sendotp{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+    border-radius: 8px;
+    margin: 15px auto;
+}
+.sendotp_text{
+    text-align: center;
+    padding: 15px;
+}
+.sendotp_text h4{
+    padding: 15px 0px;
+}
+.email-input{
+    margin-top: 20px;
+}
