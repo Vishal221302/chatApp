@@ -17,7 +17,7 @@ export const login = (credentials) => {
     try {
       // Replace the URL with your API endpoint
       const response = await axios.post(
-        "http://localhost:8000/api/auth/loginPassword",
+        "https://chat-backend-s5z0.onrender.com/api/auth/loginPassword",
         credentials
       );
 
