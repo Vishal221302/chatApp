@@ -1,4 +1,4 @@
-export const mainUrl = "http://localhost:8000";
+export const mainUrl = "https://chat-backend-s5z0.onrender.com";
 
 export const configData = {
   app_mode: "production",
