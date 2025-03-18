@@ -12,7 +12,7 @@ export const addUser = (credentials, navigate) => {
     dispatch({ type: REGISTER_REQUEST });
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/auth/register",
+        "https://chat-backend-s5z0.onrender.com/api/auth/register",
         credentials,
         {
           headers: {
