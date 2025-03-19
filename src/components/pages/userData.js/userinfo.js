@@ -9,7 +9,7 @@ export default function Userinfo(props) {
     <div>
       <div className="profiel_name">
         <img
-          src={`http://localhost:8000/${userdetails.profile_image}`}
+          src={`https://chat-backend-s5z0.onrender.com/${userdetails.profile_image}`}
           alt={userdetails.name}
           className="useravatar"
         />
