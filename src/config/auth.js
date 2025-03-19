@@ -137,7 +137,9 @@ export async function getMessage(userId) {
   try {
     const response = await axios.get(
       `${configData.apiUrl}messages/${userId}`,
+
       {
+        withCredentials: true,
         headers: headers,
       }
     );
