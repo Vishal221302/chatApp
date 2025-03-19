@@ -40,7 +40,7 @@ const ChatMessage = (props) => {
       return;
     }
 
-    const socketInstance = io("http://localhost:8000", {
+    const socketInstance = io("https://chat-backend-s5z0.onrender.com", {
       query: { userId: userid.id },
       withCredentials: true,
     });
@@ -133,7 +133,7 @@ const ChatMessage = (props) => {
     if (file.media_type === "image") {
       return (
         <img
-          src={`http://localhost:8000/${file.media_url}`}
+          src={`https://chat-backend-s5z0.onrender.com/${file.media_url}`}
           style={{ width: "30%" }}
           alt="Uploaded"
           className="uploaded-image"
@@ -143,18 +143,18 @@ const ChatMessage = (props) => {
       return (
         <video
           controls
-          src={`http://localhost:8000/${file.media_url}`}
+          src={`https://chat-backend-s5z0.onrender.com/${file.media_url}`}
           style={{ width: "30%" }}
           className="uploaded-video"
         ></video>
       );
     } else if (file.media_type === "audio") {
-      return <audio controls src={`http://localhost:8000/${file.media_url}`} className="uploaded-audio"></audio>;
+      return <audio controls src={`https://chat-backend-s5z0.onrender.com/${file.media_url}`} className="uploaded-audio"></audio>;
     } else {
       return (
         <div className="file-message">
           <p className="file-name">{file.media_url.name}</p>
-          <a href={`http://localhost:8000/${file.media_url}`} download>
+          <a href={`https://chat-backend-s5z0.onrender.com/${file.media_url}`} download>
             Download
           </a>
         </div>
@@ -172,7 +172,7 @@ const ChatMessage = (props) => {
           <div className="chat-header">
             <button className="back-button" onClick={handleShow}>
               <img
-                src={`http://localhost:8000/${userdetails.profile_image}`}
+                src={`https://chat-backend-s5z0.onrender.com/${userdetails.profile_image}`}
                 alt={userdetails.name}
                 className="user-avatar"
               />
