@@ -169,7 +169,7 @@ const UserList = (props) => {
                 key={user.id}
               >
                 <img
-                  src={`http://localhost:8000/${user.profile_image}`}
+                  src={`https://chat-backend-s5z0.onrender.com/${user.profile_image}`}
                   alt={user.name}
                   className="user-avatar"
                 />
